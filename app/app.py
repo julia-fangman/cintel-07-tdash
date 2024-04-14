@@ -45,16 +45,6 @@ with ui.sidebar(title="Filter Penguins by Mass and Species", style="background-c
         target="_blank",
     )
     ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
-    ui.a(
-        "Template: Basic Dashboard",
-        href="https://shiny.posit.co/py/templates/dashboard/",
-        target="_blank",
-    )
-    ui.a(
-        "See also",
-        href="https://github.com/denisecase/pyshiny-penguins-dashboard-express",
-        target="_blank",
-    )
 
 # Create Value boxes for data
 with ui.layout_column_wrap(fill=False):
